@@ -50,7 +50,7 @@ function App() {
 
       <div className="publish">
         <input onChange={ (e)=>{ 입력값변경(e.target.value) } } />
-        <button onClick={ ()=>{ 글제목변경([입력값, ...글제목]); 작성날짜변경([currentDate,...작성날짜]) } }>저장</button>
+        <button onClick={ ()=>{ 글제목변경([입력값, ...글제목]); 작성날짜변경([currentDate,...작성날짜]); 따봉변경([0, ...따봉]) } }>저장</button>
       </div>
 
       <button onClick={ ()=>{ modal변경(!modal)} }>새글</button>
